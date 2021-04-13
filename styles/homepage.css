@@ -1,0 +1,68 @@
+/*
+Auteur:         Kim Voets
+Aanmaakdatum:   8-12-2020
+
+Praktijk
+*/
+body
+{
+    background-image: url(../images/homepage/bg.png);
+}
+.banner
+{
+    width: 100%;
+}
+li a,li a:hover
+{
+    color: #69238F;
+}
+h1
+{
+    color: #69238F;
+    margin-bottom: 20px;
+}
+h2
+{
+    color: #BE85DD;
+}
+p
+{
+    margin-bottom:5px;
+}
+img
+{
+    float: left;
+}
+.int
+{
+    margin-top: -30px;
+    margin-bottom: -10px;
+    width: 190px;
+}
+.code
+{
+   margin-top: -10px;
+   width: 190px;
+}
+.footer
+{  
+    color: #69238F;
+}
+/*Opmaak op een iPhone 11*/
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px)
+{
+    body
+    {
+        min-width: 100%;
+        min-height: 100%;
+    }
+    nav
+    {
+        width: 100%;
+        box-shadow: 5px 10px 18px #AB8BC5;
+    }
+    ul
+    {
+        height: 76px;
+    }
+}
